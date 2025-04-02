@@ -23,189 +23,713 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
-                </section>
-                <section>
-                    <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
-                        <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
-                        </p>
-                    </section>
-                </section>
-                <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
-                        <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
-                </section>
-                <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
-                </section>
-                <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
+                    <h1>JavaScript</h1>
                     <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
-                        </code>
-                        tag!
+                        <em>наконец-то</em>
                     </div>
                     <img
                         class="r-stretch"
-                        src="https://goqr.me/"
+                        src="https://ktkv-presentations.github.io/uidev-11"
                         data-type="qrcode" />
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section>
+                        <h1>История JavaScript</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <ul>
+                                    <h4>Основные моменты</h4>
+                                    >
+                                    <li>
+                                        Был создан в 1995 году Бренданом Эёхом
+                                    </li>
+                                    <li>
+                                        В 1997 году JavaScript был
+                                        стандартизирован (ECMAScript)
+                                    </li>
+                                    <li>
+                                        Используется для создания логики и
+                                        асинхронного обмена данными с сервером
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border-b">
+                                <h4>Применения</h4>
+                                <ul>
+                                    <li>
+                                        Манипуляция DOM (Document Object Model)
+                                    </li>
+                                    <li>Обработка событий</li>
+                                    <li>Динамическое изменение стилей</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Характеристика JavaScript</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Интерпретируемый</h4>
+                                <p>
+                                    не требует предварительной компиляции
+                                    (веб-браузер или серверная платформа
+                                    Node.js)
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Динамическая типизация</h4>
+                                <p>
+                                    Типы данных переменных определяются во время
+                                    выполнения
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>
+                                    Объектно-ориентированное программирование
+                                </h4>
+                                <p>
+                                    позволяет создавать и использовать объекты,
+                                    а также реализовывать наследование через
+                                    прототипы
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>
+                                    Асинхронность и событийно-ориентированная
+                                    модель
+                                </h4>
+                                <p>
+                                    поддерживает код, который исполняется без
+                                    блокировки основного потока выполнения
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Характеристика JavaScript</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Кроссплатформенный</h4>
+                                <p>
+                                    Поддерживается на всех устройствах (если на
+                                    них есть браузер)
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Расширяемый</h4>
+                                <p>
+                                    Существует множество библиотек и фреймворков
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Функции</h1>
+                        <h4>Function Declaration (Объявление функции)</h4>
+                        <pre><code data-trim class="js">
+function greet(name) {
+  console.log(`Привет, ${name}!`);
+}
+greet('Анна'); // Выведет: Привет, Анна!
+                        </code></pre>
+                        <div class="border-r">
+                            <em>
+                                Обладают поднятием - hoisting (позволяет
+                                вызывать функцию до её определения в коде)
+                            </em>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>Function Expression (Функциональное выражение)</h4>
+                        <pre><code data-trim class="js">
+const greet = function(name) {
+  console.log(`Привет, ${name}!`);
+};
+greet('Анна'); // Выведет: Привет, Анна!
+                        </code></pre>
+                        <div class="border-r">
+                            <em>Не обладают поднятием</em>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>Arrow Function (Стрелочная функция)</h4>
+                        <pre><code data-trim class="js">
+const greet = (name) =&gt; {
+  console.log(`Привет, ${name}!`);
+};
+greet('Анна'); // Выведет: Привет, Анна!
+                        </code></pre>
+                        <div class="border-r">
+                            <em>
+                                не имеют собственный контекст (наследуют
+                                значение this из окружающего контекста)
+                            </em>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Переменные</h1>
+                        <h4>С блочной видимостью</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4><code>let</code></h4>
+                                <p>Может быть переопределена</p>
+                                <pre><code data-trim class="js">
+let b = 20;
+                                </code></pre>
+                            </div>
+                            <div class="border-b">
+                                <h4><code>const</code></h4>
+                                <p>Не может быть переопределена</p>
+                                <pre><code data-trim class="js">
+const b = 20;
+                                </code></pre>
+                            </div>
+                        </div>
+                        <hr />
+                        <h4>С функциональной видимостью</h4>
+                        <div class="border-b">
+                            <h4><code>var</code></h4>
+                            <p>Может быть переопределена</p>
+                            <pre><code data-trim class="js">
+var b = 20;
+                                </code></pre>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>Функциональная видимость</h4>
+                        <p>Доступна внутри функции</p>
+                        <pre><code data-trim class="js">
+function exampleFunction() {
+    let functionVariable = 'This is a function-scoped variable';
+    console.log(functionVariable); // Доступно внутри функции
+}
+
+exampleFunction();
+console.log(functionVariable); // Ошибка: functionVariable is not defined
+                        </code></pre>
+                        <hr />
+                        <h4>Блочная видимость</h4>
+                        <p>Доступна внутри блоков (фигурных скобок)</p>
+                        <pre><code data-trim class="js">
+if (true) {
+  let blockVariable = 'This is a block-scoped variable';
+  console.log(blockVariable); // Доступно внутри блока
+}
+
+console.log(blockVariable); // Ошибка: blockVariable is not defined
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Типы данных</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>JavaScript</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>int, float</td>
+                                    <td>number</td>
+                                </tr>
+                                <tr>
+                                    <td>str</td>
+                                    <td>string</td>
+                                </tr>
+                                <tr>
+                                    <td>bool</td>
+                                    <td>boolean</td>
+                                </tr>
+                                <tr>
+                                    <td>list</td>
+                                    <td>array (массив)</td>
+                                </tr>
+                                <tr>
+                                    <td>dict</td>
+                                    <td>object (объект)</td>
+                                </tr>
+                                <tr>
+                                    <td>None</td>
+                                    <td>null, undefined</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <em>
+                            Все сложные структуры являются объектами (object)
+                        </em>
+                    </section>
+                    <section>
+                        <h1>Операторы</h1>
+                        <ul>
+                            <li><em>...все типичные (+, -, *, /)...</em></li>
+                            <li>
+                                <code>%</code>
+                                - остаток от деления
+                            </li>
+                            <li>
+                                <code>**</code>
+                                - возведение в степень
+                            </li>
+                        </ul>
+                        <h4>Особенности</h4>
+                        <div>
+                            <em>Можно складывать и вычитать всё</em>
+                        </div>
+                        <pre><code data-trim class="js">
+5 + 3; // 8
+'Hello' + ' ' + 'world'; // 'Hello world'
+5 + '3'; // '53'
+true + 1; // 2
+false + 1; // 1
+[1, 2] + 3; // '1,23'
+5 - 3; // 2
+'Hello' - 'world'; // NaN
+'5' - 3; // 2
+5 - '3'; // 2
+'Hello' - 3; // NaN
+true - 1; // 0
+1 - true; // 0
+false - 1; // -1
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Логические операторы</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>JavaScript</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>and</td>
+                                    <td>&&</td>
+                                </tr>
+                                <tr>
+                                    <td>or</td>
+                                    <td>||</td>
+                                </tr>
+                                <tr>
+                                    <td>not</td>
+                                    <td>!</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>Операторы сравнения</h3>
+                        <ul>
+                            <li>
+                                <code>= =</code>
+                                (равенство)
+                            </li>
+                            <li>
+                                <code>! =</code>
+                                (неравенство)
+                            </li>
+                            <li>
+                                <code>&gt;</code>
+                                (больше)
+                            </li>
+                            <li>
+                                <code>&lt;</code>
+                                (меньше)
+                            </li>
+                            <li>
+                                <code>&gt; =</code>
+                                (больше или равно)
+                            </li>
+                            <li>
+                                <code>&lt; =</code>
+                                (меньше или равно)
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Условные конструкции</h1>
+                        <h4>Одно событие</h4>
+                        <pre><code data-trim class="js">
+if (условие) {
+    // код, выполняемый, если условие истинно
+}
+                        </code></pre>
+                        <h4>Два исхода</h4>
+                        <pre><code data-trim class="js">
+  if (условие) {
+    // код, выполняемый, если условие истинно
+  } else {
+    // код, выполняемый, если условие ложно
+  }
+                        </code></pre>
+                        <h4>Три и более исхода</h4>
+                        <pre><code data-trim class="js">
+if (условие1) {
+    // код
+} else if (условие2) {
+    // код
+} else {
+    // код
+}
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>
+                            Цикл
+                            <code>for</code>
+                        </h1>
+                        <pre><code data-trim class="js">
+for (let i = 0; i &lt; 5; i++) {
+    console.log(i);
+}
+                        </code></pre>
+                        <ul>
+                            <li>
+                                Инициализация:
+                                <code>let i = 0;</code>
+                                — создание переменной i со значением 0 перед
+                                началом цикла
+                            </li>
+                            <li>
+                                Условие:
+                                <code>i &lt; 5;</code>
+                                — проверка перед каждой итерацией; цикл
+                                выполняется, пока i меньше 5
+                            </li>
+                            <li>
+                                Обновление:
+                                <code>i++</code>
+                                — увеличение значения i на 1 после каждой
+                                итерации
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>
+                            Цикл
+                            <code>while</code>
+                        </h3>
+                        <pre><code data-trim class="js">
+let i = 0;
+while (i &lt; 5) {
+    console.log(i);
+    i++;
+}
+                        </code></pre>
+                        <em>Ручной контроль за итератором</em>
+                        <hr />
+                        <h3>
+                            Цикл
+                            <code>do ... while</code>
+                        </h3>
+                        <pre><code data-trim class="js">
+let i = 0;
+do {
+      console.log(i);
+      i++;
+} while (i &lt; 5);
+                        </code></pre>
+                        <em>
+                            Исполниться 1 раз, только потом будет смотреть на
+                            условие
+                        </em>
+                    </section>
+                    <section>
+                        <h1>Объекты</h1>
+                        <p>
+                            коллекции пар «ключ-значение», где ключами являются
+                            строки (свойства), а значениями — любые данные или
+                            функции (методы)
+                        </p>
+                        <p>
+                            <em>
+                                Являются альтернативой
+                                <b>словаря</b>
+                                из Python, но пишется без кавычек
+                            </em>
+                        </p>
+                        <pre><code data-trim class="js">
+const person = {
+    name: 'Иван',
+    age: 30,
+    greet: function() {
+        console.log('Привет!');
+    }
+};
+                        </code></pre>
+                        <h3>Доступ к значениям</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Точечная нотация</h4>
+                                <pre><code data-trim class="js">
+console.log(person.name);
+person.greet();
+                                </code></pre>
+                            </div>
+                            <div class="border-b">
+                                <h4>Скобочная нотация</h4>
+                                <pre><code data-trim class="js">
+console.log(person['age']); // 30
+                                </code></pre>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Контекст</h1>
+                        <h4><code>this</code></h4>
+                        <p>
+                            внутри метода объекта ссылается на сам объект,
+                            позволяя обращаться к его свойствам и другим методам
+                        </p>
+                        <pre><code data-trim class="js">
+const person = {
+    name: 'Иван',
+    age: 30,
+    greet: function() {
+        console.log(`Привет, меня зовут ${this.name} и мне ${this.age} лет.`);
+    }
+};
+
+person.greet();
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Массивы</h1>
+                        <p>
+                            упорядоченные коллекции элементов, доступ к которым
+                            осуществляется по индексу
+                        </p>
+                        <h4>Литерал массива</h4>
+                        <pre><code data-trim class="js">
+const fruits = ['Яблоко', 'Банан', 'Апельсин'];
+                        </code></pre>
+                        <h4>Конструктор Array</h4>
+                        <pre><code data-trim class="js">
+const fruits = new Array('Яблоко', 'Банан', 'Апельсин');
+                        </code></pre>
+                        <em>Все типы данных имеют конструкторы</em>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Вывод данных</h1>
+                        <h3>
+                            <code class="js">
+                                console.log(значение_или_переменная);
+                            </code>
+                        </h3>
+                        <p>
+                            может принимать несколько аргументов и поддерживает
+                            различные типы данных
+                        </p>
+                        <div class="border-b">
+                            <em>
+                                может принимать несколько аргументов и
+                                поддерживает различные типы данных
+                            </em>
+                            <code class="js">
+                                console.log('Имя:', имя, 'Возраст:', возраст);
+                            </code>
+                        </div>
+                        <div>
+                            <em>
+                                Выступает аналогом
+                                <code class="python">print()</code>
+                            </em>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Ввод данных</h1>
+                        <pre><code data-trim class="js">
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Как вас зовут? ', (ответ) =&gt; {
+  console.log(`Привет, ${ответ}!`);
+  rl.close();
+});
+                        </code></pre>
+                        <div class="border-b">
+                            <ul>
+                                <li>Неудобно</li>
+                                <li>Работает только в Node.js</li>
+                                <li>Много кода</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Ввод данных (проще)</h1>
+                        <h3><code class="js">prompt()</code></h3>
+                        <pre><code data-trim class="js">
+let результат = prompt(сообщение, значениеПоУмолчанию);
+                        </code></pre>
+                        <div class="border-b">
+                            <ul>
+                                <li>Работает только в браузере</li>
+                                <li>Тормозит рендер страницы</li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Виды JavaScript</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>JavaScript в браузере</h3>
+                                <h4>
+                                    <code>V8</code>
+                                    ,
+                                    <code>SpiderMonkey</code>
+                                    ,
+                                    <code>Nitro</code>
+                                    ,
+                                    <code>Chakra</code>
+                                </h4>
+                                <p>
+                                    выполняется на стороне клиента и
+                                    предназначен для взаимодействия с
+                                    веб-страницей и её элементами
+                                </p>
+                                <ul>
+                                    <li>Доступ к DOM</li>
+                                    <li>Ограничения безопасности</li>
+                                    <li>Асинхронность</li>
+                                </ul>
+                            </div>
+                            <div class="border-b">
+                                <h3>Node.js</h3>
+                                <p>
+                                    среда выполнения JavaScript на сервере (без
+                                    браузера), построенная на движке V8 от
+                                    Google
+                                </p>
+                                <ul>
+                                    <li>Доступ к файловой системе и сети</li>
+                                    <li>Отсутствие DOM</li>
+                                    <li>Модульная система CommonJS</li>
+                                    <li>
+                                        Асинхронная, событийно-ориентированная
+                                        архитектура
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <h1>Сообщения</h1>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="border-b">
+                            <h4>
+                                История и эволюция движков JavaScript в
+                                браузерах
+                            </h4>
+                            <p>
+                                как движки JavaScript развивались с течением
+                                времени
+                            </p>
+                        </div>
+                        <div class="border-b">
+                            <h4>JavaScript Event loop</h4>
+                            <ul>
+                                <li>Основы Event Loop</li>
+                                <li>Микрозадачи и макрозадачи</li>
+                                <li>Реализация Event Loop в браузере</li>
+                            </ul>
+                        </div>
+                        <div class="border-b">
+                            <h4>Стандарт ECMAScript</h4>
+                            <ul>
+                                <li>Что такое ECMAScript</li>
+                                <li>История и эволюция ECMAScript</li>
+                                <li>Ключевые особенности ECMAScript</li>
+                                <li>Процесс стандартизации</li>
+                            </ul>
+                        </div>
+                        <div class="border-b">
+                            <h4>TypeScript</h4>
+                            <ul>
+                                <li>Статическая типизация</li>
+                                <li>Совместимость с JavaScript</li>
+                                <li>Поддержка современных возможностей</li>
+                                <li>Инструменты разработки</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <section>
+                        <h1>Самостоятельно</h1>
+                        <img class="r-stretch" src="" data-type="qrcode" />
+                    </section>
+                    <section>
+                        <h1>
+                            Перебрать все элементы массива и вывести их в
+                            консоль
+                        </h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <ol>
+                                <li>'Понедельник'</li>
+                                <li>'Вторник'</li>
+                                <li>'Среда'</li>
+                                <li>'Четверг'</li>
+                                <li>'Пятница'</li>
+                                <li>'Суббота'</li>
+                                <li>'Воскресенье'</li>
+                            </ol>
+                            <div>
+                                <h4>Вывод в консоли</h4>
+                                <pre><code data-trim class="js">
+Дни недели:
+Понедельник
+Вторник
+Среда
+Четверг
+Пятница
+Суббота
+Воскресенье
+                                </code></pre>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Создайте объект и выведите значение его ключей</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Ключ</td>
+                                        <td>Значение</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>Название книги</td>
+                                    </tr>
+                                    <tr>
+                                        <td>author</td>
+                                        <td>Автор</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                <h4>Вывод в консоль</h4>
+                                <pre><code data-trim class="js">
+Выведет: Название книги: 1984
+Автор книги: George Orwell
+                                </code></pre>
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </div>
         </div>
@@ -396,4 +920,3 @@ var foo = {
         </script>
     </body>
 </html>
-
